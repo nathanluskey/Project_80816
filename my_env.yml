@@ -1,0 +1,20 @@
+# For more information: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
+
+# # Create conda environemnt
+# conda env create -f my_env.yml
+
+# # Update Conda environement
+# conda env update -f my_env.yml  --prune
+
+name: causal_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - pip
+  - pip:
+    - seaborn
+    - pandas
+    - causal-learn
+    - numpy
