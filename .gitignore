@@ -1,6 +1,9 @@
 # Ignore data directory
 data
 
+# Macs make this file when opening a directory in finder
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
