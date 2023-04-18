@@ -19,3 +19,5 @@ dependencies:
     - causal-learn
     - numpy
     - optbinning
+    - pydot
+    - graphviz
